@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "django-rest-test"
+version = "0.1.0"
+description = ""
+authors = ["vladaerastova <vladayerastova@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+django = "^3.0.1"
+djangorestframework = "^3.11.0"
+clearbit = "^0.1.7"
+djangorestframework-jwt = "^1.11.0"
+django-cors-headers = "^3.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
