@@ -1,21 +1,29 @@
-## Getting start
+Getting start
+====================================
 
 Install poetry and dependencies
 
-```bash
-poetry install 
-poetry shell
-```
+ 
+  poetry install 
+  poetry shell
+  
+  
+Set up MAILGUN_API_KEY and CLEARBIT_API_KEY in blog.settings.py
 
-## Running
+https://www.mailgun.com - for email validation
 
-```bash
-python manage.py runserver
-```
+https://clearbit.com/enrichment - for getting additional data for the user on signup
 
-## Testing
 
-```bash
-python manage.py test
-```
+Running
+====================================
+
+  python manage.py runserver
+
+
+Testing
+====================================
+
+  python manage.py test
+
 
